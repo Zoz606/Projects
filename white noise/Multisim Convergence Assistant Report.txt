@@ -1,0 +1,63 @@
+Multisim Convergence Assistant Summary Report
+ 
+ Convergence Assistant Summary Report
+
+Outcome:
+
+	The simulation error was corrected successfully.
+
+Changes Made:
+
+	-Shunt resistance from analog nodes to ground (RSHUNT) was changed to 10000000
+
+
+
+Multisim Convergence Assistant Log 
+ 
+Step 1: Verifying Error Scenario
+	...completed.
+
+Step 2: Setting parameter Integration Method (METHOD) to Gear 
+	Simulating...
+	  ...completed. Simulation error still occurs.
+
+Step 3: Setting parameter Initial Conditions to Set To Zero 
+	Simulating...
+	  ...completed. Simulation error still occurs.
+
+Step 4: Setting parameter Relative error tolerance (RELTOL) to 1.0000e-002 
+	Simulating...
+	  ...completed. Simulation error still occurs.
+
+Step 5: Setting parameter Shunt resistance from analog nodes to ground (RSHUNT) to 1000000000 
+	Simulating...
+	  ...completed. Simulation error still occurs.
+
+Step 6: Setting parameter Shunt resistance from analog nodes to ground (RSHUNT) to 100000000 
+	Simulating...
+	  ...completed. Simulation error still occurs.
+
+Step 7: Setting parameter Shunt resistance from analog nodes to ground (RSHUNT) to 10000000 
+	Simulating...
+	  ...completed. Simulation error fixed.
+
+Step 8: Attempting rollback of Initial Conditions to User Defined 
+	Simulating...
+	...Rollback successful.
+
+Step 9: Attempting rollback of Relative error tolerance (RELTOL) to 1.0000e-002 
+	Simulating...
+	...Rollback successful.
+
+Step 10: Attempting rollback of Shunt resistance from analog nodes to ground (RSHUNT) to 1.0000e+012 
+	Simulating...
+	...Error recurred - rollback unsuccessful.
+
+Step 11: Restoring value of Shunt resistance from analog nodes to ground (RSHUNT) to 10000000 
+
+Step 12: Attempting rollback of Integration Method (METHOD) to Gear 
+	Simulating...
+	...Rollback successful.
+
+Convergence Assistant completed successfully.
+ 
